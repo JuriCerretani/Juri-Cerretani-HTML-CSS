@@ -1,0 +1,119 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+.bordo{
+  border: 1px solid black;
+}
+
+.cont{
+  background-color: #363636;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  background-color: none;
+  opacity: 95%;
+}
+
+.quadrato{
+  color: black;
+  display: flex;
+  padding: 45px;
+  border:1px solid black;
+  max-width: 400px;
+  flex-direction: column;
+  box-shadow: 7px 7px 5px #363636;
+  text-align: center;
+}
+
+
+.bottone-sx{
+  padding: 10px;
+  background-color: #363636;
+  color: white;
+  position: absolute;
+  left:30%;
+  top:105%;
+}
+
+.bottone-dx{
+  padding: 10px;
+  background-color: #363636;
+  color: white;
+  position: absolute;
+  left:70%;
+  top: 105%;
+}
+
+.logo{
+  color: white;
+  position: absolute;
+  left:10%;
+  top: 30%;
+}
+
+.page{
+  display: flex;
+  padding: 130px;
+  flex-direction: column;
+  opacity: 95%;
+}
+
+.titolo{
+  font-size: 26px;
+  font-family: georgia;
+  background-color: #d7d5d5;
+  display: flex;
+  padding: 40px;
+  justify-content: center;
+}
+
+.quad-sx{
+  font-size: 16px;
+  font-family: georgia;
+  background-color: #d7d5d5;
+  display: flex;
+  padding: 40px;
+  justify-content: space-around;
+}
+
+.quad-dx{
+  font-size: 16px;
+  font-family: georgia;
+  background-color: #d7d5d5;
+  display: flex;
+  padding: 40px;
+  justify-content: space-around;
+}
+
+.riquadro{
+  border: 2px solid #363636;
+  box-shadow: 15px 15px 10px black;
+}
+
+button{
+  font-family: georgia;
+  font-size: 14px;
+}
+
+a{
+  font-family: georgia;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+a:visited{
+  color: white;
+}
+
+a:hover{
+  color: black;
+}
+
+ul{
+  text-align: left;
+}
